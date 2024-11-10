@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoyancy Simulation</title>
+    <link rel="stylesheet" href="sims.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="simulation-canvas" width="800" height="600"></canvas>
+
+        <div class="info">
+            <p id="info-density">Density of Object: 0.90</p>
+            <p id="info-liquid">Liquid: Water (1.0 g/cm³)</p>
+            <p id="info-explanation">Object floats!</p>
+        </div>
+
+        <p class="instructions">Use the keyboard to control the simulation:</p>
+        <ul class="keymap">
+            <li><strong>W/O/M</strong> - Change Liquid (Water, Oil, Mercury)</li>
+            <li><strong>1/2/3/4</strong> - Change Object (Ball, Rock, Wood, Balloon)</li>
+            <li><strong>Arrow Up/Arrow Down</strong> - Adjust Object Density</li>
+        </ul>
+    </div>
+
+    <script src="simulation.js"></script>
+</body>
+</html>

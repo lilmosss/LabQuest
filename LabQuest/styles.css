@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background: #f7cbec;
+    padding:0;
+    color: #333;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+h1 {
+    font: size 36px;
+    color: purple;
+    text-align: center;
+    margin-bottom:30px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;    /* Center buttons horizontally */
+}
+.button{
+    background-color: rgb(140, 185, 144);
+    color: #434c50;
+    padding: 15px 32px;
+    display: block; 
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 250px;
+}
+.button:hover {
+    background-color: #3b423b;
+}
+.lab-image {
+    display: block;
+    margin: 0 auto 20px auto; /* Center the image with some space below */
+    max-width: 200px; /* Limit the size of the image */
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for a nice effect */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover 
+}

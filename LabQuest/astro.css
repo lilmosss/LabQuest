@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#solarSystemCanvas {
+    border: 1px solid white;
+}
+
+#timeOfDayText {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    display: block;
+    color: white;
+}
+
+
